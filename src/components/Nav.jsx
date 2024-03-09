@@ -45,7 +45,7 @@ const Nav = () => {
           <img src={hamburger} alt="hamburger" width={25} height={25} />
           </div>
           {showSubMenu && (
-            <div className="subMenu absolute right-0 pr-10  p-2 rounded-lg bg-slate-300 z-10">
+            <div className="subMenu absolute right-0 pr-10  p-2 rounded-lg bg-slate-300 z-1000">
               <img src={cross} width={25} height={25} className="absolute right-0 top-0 cursor-pointer " onClick={handleCross}/>
               <ul className="flex flex-col gap-8">
                 {navLinks.map((item) => (
